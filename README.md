@@ -26,4 +26,7 @@ This is a simple web application that detects the color of any pixel from a live
 ## 📂 Project Structure
 
 ├── index.html # Main HTML file
+├──styles.css
+├──script.js
+
 └── README.md # Project documentation
