@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #f4f4f4;
+  }
+  
+  video {
+    border: 2px solid #333;
+    border-radius: 8px;
+    width: 640px;
+    height: 480px;
+  }
+  
+  .controls {
+    margin: 20px 0;
+  }
+  
+  #colorPreview {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    border: 2px solid #000;
+    margin-top: 15px;
+    background: #fff;
+  }
+  
+  #colorText {
+    font-weight: bold;
+    font-size: 18px;
+  }
+  

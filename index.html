@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pixel Color Music</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🎵 LEGO Pixel Color Music (Blind-Friendly)</h1>
+
+  <video id="video" autoplay></video>
+  <canvas id="canvas" width="640" height="480" style="display:none;"></canvas>
+
+  <div class="controls">
+    <label for="x">X:</label>
+    <input type="number" id="x" value="100" />
+    <label for="y">Y:</label>
+    <input type="number" id="y" value="100" />
+    <button id="getColor">Get Pixel Color & Play Note</button>
+  </div>
+
+  <div id="colorPreview">Color Preview</div>
+  <p id="colorText"></p>
+
+  <script src="script.js"></script>
+</body>
+</html>
